@@ -31,6 +31,19 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_tkUowNTwEe--g_pxbj1JMA" name="DeriveReqt9" client="_kPpVMNTsEe--g_pxbj1JMA" supplier="_cQqscNTsEe--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_5NE0kNTwEe--g_pxbj1JMA" name="Refine10" client="_lJSS8NTsEe--g_pxbj1JMA" supplier="_d4Q8YNTsEe--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_85Uc0NTwEe--g_pxbj1JMA" name="Refine11" client="_o75o8NTsEe--g_pxbj1JMA" supplier="_iuiu0NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SFoCgNTxEe--g_pxbj1JMA" name="Communicating with neighbors"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_AggwgNTyEe--g_pxbj1JMA" name="Serial layer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BnHMMNTyEe--g_pxbj1JMA" name="Link layer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_C71jcNTyEe--g_pxbj1JMA" name="Network layer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_B0BKUNTzEe--g_pxbj1JMA" name="Reliability"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_R_q5kNTzEe--g_pxbj1JMA" name="Energy management"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_S3kK4NTzEe--g_pxbj1JMA" name="Maximum consumption"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_T7uWkNTzEe--g_pxbj1JMA" name="Dynamic optimization"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_U45JcNTzEe--g_pxbj1JMA" name="Real time monitoring"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KtdlUNT1Ee--g_pxbj1JMA" name="Interactions and synchronization "/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_L0h7ENT1Ee--g_pxbj1JMA" name="Data transmission to microcontroler"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MxvKMNT1Ee--g_pxbj1JMA" name="Response to commands"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_N0KQgNT1Ee--g_pxbj1JMA" name="Adaptive management"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3-yP0NQcEe-erOQ_hdP_UA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3-49gNQcEe-erOQ_hdP_UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -112,4 +125,17 @@
   <Requirements:DeriveReqt xmi:id="_tkZhQNTwEe--g_pxbj1JMA" base_DirectedRelationship="_tkUowNTwEe--g_pxbj1JMA" base_Abstraction="_tkUowNTwEe--g_pxbj1JMA"/>
   <Requirements:Refine xmi:id="_5NJtENTwEe--g_pxbj1JMA" base_DirectedRelationship="_5NE0kNTwEe--g_pxbj1JMA" base_Abstraction="_5NE0kNTwEe--g_pxbj1JMA"/>
   <Requirements:Refine xmi:id="_85Z8YNTwEe--g_pxbj1JMA" base_DirectedRelationship="_85Uc0NTwEe--g_pxbj1JMA" base_Abstraction="_85Uc0NTwEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_SFuJINTxEe--g_pxbj1JMA" base_NamedElement="_SFoCgNTxEe--g_pxbj1JMA" id="3.3" text="To communicate with its neighbors, a blink blocks must be able to use a network protocol structured in 3 layers (serial, link, network)" base_Class="_SFoCgNTxEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_AgmQENTyEe--g_pxbj1JMA" base_NamedElement="_AggwgNTyEe--g_pxbj1JMA" id="3.3.1" text="The system shall encode frames in BF21, framing the frames with ~ and .." base_Class="_AggwgNTyEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_BnMEsNTyEe--g_pxbj1JMA" base_NamedElement="_BnHMMNTyEe--g_pxbj1JMA" id="3.3.2" text="The system shall handle retransmissions with a maximum of 3 attempts and an acknowledgement delay of 150 ms. Checksum verification." base_Class="_BnHMMNTyEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_C784MNTyEe--g_pxbj1JMA" base_NamedElement="_C71jcNTyEe--g_pxbj1JMA" id="3.3.3" text="The system shall process payload data and handle it via callbacks." base_Class="_C71jcNTyEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_B0Gp4NTzEe--g_pxbj1JMA" base_NamedElement="_B0BKUNTzEe--g_pxbj1JMA" id="3.3.4" text="95% of packets transmitted successfully." base_Class="_B0BKUNTzEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_R_wZINTzEe--g_pxbj1JMA" base_NamedElement="_R_q5kNTzEe--g_pxbj1JMA" id="6" text="The system shall manage its energy autonomously" base_Class="_R_q5kNTzEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_S3ocUNTzEe--g_pxbj1JMA" base_NamedElement="_S3kK4NTzEe--g_pxbj1JMA" id="6.1" text="In full operation, the system consumption should be limited to 290 mA" base_Class="_S3kK4NTzEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_T7zPENTzEe--g_pxbj1JMA" base_NamedElement="_T7uWkNTzEe--g_pxbj1JMA" id="6.2" text="The blocks adapt their consumption according to their position in the network" base_Class="_T7uWkNTzEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_U49a4NTzEe--g_pxbj1JMA" base_NamedElement="_U45JcNTzEe--g_pxbj1JMA" id="6.3" text="The system shall detect and prevent consumption anomalies" base_Class="_U45JcNTzEe--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_Ktjr8NT1Ee--g_pxbj1JMA" base_NamedElement="_KtdlUNT1Ee--g_pxbj1JMA" id="7" text="The system shall interact with sensors and actuators" base_Class="_KtdlUNT1Ee--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_L0mMgNT1Ee--g_pxbj1JMA" base_NamedElement="_L0h7ENT1Ee--g_pxbj1JMA" id="7.1" text="Sensors must transmit their data to the microcontroller with a latency &lt; 10 ms" base_Class="_L0h7ENT1Ee--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_MxzboNT1Ee--g_pxbj1JMA" base_NamedElement="_MxvKMNT1Ee--g_pxbj1JMA" id="7.2" text="Actuators must respond to commands in &lt; 50 ms after receipt" base_Class="_MxvKMNT1Ee--g_pxbj1JMA"/>
+  <Requirements:Requirement xmi:id="_N0PJANT1Ee--g_pxbj1JMA" base_NamedElement="_N0KQgNT1Ee--g_pxbj1JMA" id="7.3" text="The system shall detect energy overloads and adjust coordination with neighbouring blocks" base_Class="_N0KQgNT1Ee--g_pxbj1JMA"/>
 </xmi:XMI>
