@@ -1101,9 +1101,6 @@
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_85dmwNTwEe--g_pxbj1JMA" type="Abstraction_Edge" source="_66bZINTuEe--g_pxbj1JMA" target="_QCChgNTuEe--g_pxbj1JMA">
       <children xmi:type="notation:DecorationNode" xmi:id="_85eN0NTwEe--g_pxbj1JMA" type="Abstraction_NameLabel">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fnez0NWHEe-7QafB4KREhw" source="QualifiedName">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fnez0dWHEe-7QafB4KREhw" key="QualifiedNameDepth" value="1"/>
-        </eAnnotations>
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_1rJJcNTxEe--g_pxbj1JMA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_85eN0dTwEe--g_pxbj1JMA" x="-39" y="40"/>
       </children>
