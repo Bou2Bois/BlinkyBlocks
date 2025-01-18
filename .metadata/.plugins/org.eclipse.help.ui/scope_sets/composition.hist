@@ -1,0 +1,5 @@
+#Sat Jan 18 10:47:17 CET 2025
+__DEFAULT__=false
+expression=composition
+org.eclipse.help.ui.localSearch.master=true
+org.eclipse.sdk.Eclipse.master=true
