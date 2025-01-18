@@ -21,6 +21,10 @@
           <nestedClassifier xmi:type="uml:Class" xmi:id="_mw_3oNTsEe--g_pxbj1JMA" name="Hardware operations"/>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_X6tY0NTsEe--g_pxbj1JMA" name="Movement"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_R_q5kNTzEe--g_pxbj1JMA" name="Energy management">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_T7uWkNTzEe--g_pxbj1JMA" name="Dynamic optimization"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_U45JcNTzEe--g_pxbj1JMA" name="Real time monitoring"/>
+        </nestedClassifier>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_f3K5ENTsEe--g_pxbj1JMA" name="Real time reaction"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_kPpVMNTsEe--g_pxbj1JMA" name="Swarm behavior"/>
@@ -31,19 +35,22 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_tkUowNTwEe--g_pxbj1JMA" name="DeriveReqt9" client="_kPpVMNTsEe--g_pxbj1JMA" supplier="_cQqscNTsEe--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_5NE0kNTwEe--g_pxbj1JMA" name="Refine10" client="_lJSS8NTsEe--g_pxbj1JMA" supplier="_d4Q8YNTsEe--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_85Uc0NTwEe--g_pxbj1JMA" name="Refine11" client="_o75o8NTsEe--g_pxbj1JMA" supplier="_iuiu0NTsEe--g_pxbj1JMA"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_SFoCgNTxEe--g_pxbj1JMA" name="Communicating with neighbors"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_AggwgNTyEe--g_pxbj1JMA" name="Serial layer"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_BnHMMNTyEe--g_pxbj1JMA" name="Link layer"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_C71jcNTyEe--g_pxbj1JMA" name="Network layer"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SFoCgNTxEe--g_pxbj1JMA" name="Communicating with neighbors">
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_AggwgNTyEe--g_pxbj1JMA" name="Serial layer"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_C71jcNTyEe--g_pxbj1JMA" name="Network layer"/>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_BnHMMNTyEe--g_pxbj1JMA" name="Link layer"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_B0BKUNTzEe--g_pxbj1JMA" name="Reliability"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_R_q5kNTzEe--g_pxbj1JMA" name="Energy management"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_S3kK4NTzEe--g_pxbj1JMA" name="Maximum consumption"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_T7uWkNTzEe--g_pxbj1JMA" name="Dynamic optimization"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_U45JcNTzEe--g_pxbj1JMA" name="Real time monitoring"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_KtdlUNT1Ee--g_pxbj1JMA" name="Interactions and synchronization "/>
       <packagedElement xmi:type="uml:Class" xmi:id="_L0h7ENT1Ee--g_pxbj1JMA" name="Data transmission to microcontroler"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_MxvKMNT1Ee--g_pxbj1JMA" name="Response to commands"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_N0KQgNT1Ee--g_pxbj1JMA" name="Adaptive management"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_3FwzcNWYEe-BXOQyk9vX6A" name="Refine21" client="_B0BKUNTzEe--g_pxbj1JMA" supplier="_SFoCgNTxEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_KtdlUNT1Ee--g_pxbj1JMA" name="Interactions and synchronization "/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_O_0_4NWZEe-BXOQyk9vX6A" name="Refine19" client="_S3kK4NTzEe--g_pxbj1JMA" supplier="_R_q5kNTzEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_TwVhgNWZEe-BXOQyk9vX6A" name="DeriveReqt20" client="_N0KQgNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_vjKIMNWZEe-BXOQyk9vX6A" name="Refine21" client="_MxvKMNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_19WkcNWZEe-BXOQyk9vX6A" name="Refine22" client="_L0h7ENT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VuLtENV_Ee-7QafB4KREhw" name="Blinky Block" visibility="protected">
       <packagedElement xmi:type="uml:Class" xmi:id="_yIvpMNV_Ee-7QafB4KREhw" name="Blinky Block">
@@ -237,4 +244,10 @@
   <Blocks:Block xmi:id="_IauWINWDEe-7QafB4KREhw" base_Class="_yIvpMNV_Ee-7QafB4KREhw"/>
   <Blocks:Block xmi:id="_TmlqQNWGEe-7QafB4KREhw" base_Class="_Tmim8NWGEe-7QafB4KREhw"/>
   <Blocks:Block xmi:id="_WXV6oNWGEe-7QafB4KREhw" base_Class="_WXS3UNWGEe-7QafB4KREhw"/>
+  <Requirements:Refine xmi:id="_3F9nwNWYEe-BXOQyk9vX6A" base_DirectedRelationship="_3FwzcNWYEe-BXOQyk9vX6A" base_Abstraction="_3FwzcNWYEe-BXOQyk9vX6A"/>
+  <Requirements:Refine xmi:id="_O_4qQNWZEe-BXOQyk9vX6A" base_DirectedRelationship="_O_0_4NWZEe-BXOQyk9vX6A" base_Abstraction="_O_0_4NWZEe-BXOQyk9vX6A"/>
+  <Requirements:DeriveReqt xmi:id="_TwZy8NWZEe-BXOQyk9vX6A" base_DirectedRelationship="_TwVhgNWZEe-BXOQyk9vX6A" base_Abstraction="_TwVhgNWZEe-BXOQyk9vX6A"/>
+  <Requirements:Refine xmi:id="_jkbsYNWZEe-BXOQyk9vX6A"/>
+  <Requirements:Refine xmi:id="_vjNLgNWZEe-BXOQyk9vX6A" base_DirectedRelationship="_vjKIMNWZEe-BXOQyk9vX6A" base_Abstraction="_vjKIMNWZEe-BXOQyk9vX6A"/>
+  <Requirements:Refine xmi:id="_19aO0NWZEe-BXOQyk9vX6A" base_DirectedRelationship="_19WkcNWZEe-BXOQyk9vX6A" base_Abstraction="_19WkcNWZEe-BXOQyk9vX6A"/>
 </xmi:XMI>
