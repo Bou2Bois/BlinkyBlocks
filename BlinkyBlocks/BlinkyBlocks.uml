@@ -10,7 +10,6 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_BuPy8NTGEe-ucOpFQ6p1rw" name="Requirement">
       <packagedElement xmi:type="uml:Class" xmi:id="_QaNRENTGEe-ucOpFQ6p1rw" name="Blinky Blocks">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_WB6EINTsEe--g_pxbj1JMA" name="Sound">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_gtOXUNTsEe--g_pxbj1JMA" name="Receive sound"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_hfC10NTsEe--g_pxbj1JMA" name="Emit sound"/>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_cQqscNTsEe--g_pxbj1JMA" name="Communication">
@@ -51,6 +50,7 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_TwVhgNWZEe-BXOQyk9vX6A" name="DeriveReqt20" client="_N0KQgNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_vjKIMNWZEe-BXOQyk9vX6A" name="Refine21" client="_MxvKMNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_19WkcNWZEe-BXOQyk9vX6A" name="Refine22" client="_L0h7ENT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_gtOXUNTsEe--g_pxbj1JMA" name="Receive sound"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_VuLtENV_Ee-7QafB4KREhw" name="Block" visibility="protected">
       <packagedElement xmi:type="uml:Class" xmi:id="_yIvpMNV_Ee-7QafB4KREhw" name="Blinky Block">
@@ -362,6 +362,16 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_n-n50NeIEe-KBvc10Q5u9w" name="reportEnergyStatus"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_1ZZc4NeIEe-KBvc10Q5u9w" name="use" client="_EP1KYNWAEe-7QafB4KREhw" supplier="_gKpAINeIEe-KBvc10Q5u9w"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_YX3JQNfpEe-PMJF-EH2B7w" name="Satisfy26" client="_DGuNQNWAEe-7QafB4KREhw" supplier="_lJSS8NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_wF1acNfpEe-PMJF-EH2B7w" name="Satisfy27" client="_E5B4YNWAEe-7QafB4KREhw" supplier="_hfC10NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_7gEMoNfqEe-PMJF-EH2B7w" name="Satisfy28" client="_Tmim8NWGEe-7QafB4KREhw" supplier="_gtOXUNTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_9BC3MNfqEe-PMJF-EH2B7w" name="Satisfy29" client="_WXS3UNWGEe-7QafB4KREhw" supplier="_X6tY0NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_VIk34NfrEe-PMJF-EH2B7w" name="Refine30" client="_FwBx0NWAEe-7QafB4KREhw" supplier="_o75o8NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_mFtHYNfrEe-PMJF-EH2B7w" name="Satisfy31" client="_HlvWQNWAEe-7QafB4KREhw" supplier="_iuiu0NTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_sZkSINfrEe-PMJF-EH2B7w" name="Refine32" client="_GabZsNWAEe-7QafB4KREhw" supplier="_cQqscNTsEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_8ltwoNfrEe-PMJF-EH2B7w" name="Satisfy33" client="_gKpAINeIEe-KBvc10Q5u9w" supplier="_R_q5kNTzEe--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ej4hENfsEe-PMJF-EH2B7w" name="Satisfy34" client="_qCRCANeHEe-KBvc10Q5u9w" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_cfN40NfsEe-PMJF-EH2B7w" name="Satisfy35" client="_BipycNWAEe-7QafB4KREhw" supplier="_QaNRENTGEe-ucOpFQ6p1rw"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3-yP0NQcEe-erOQ_hdP_UA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3-49gNQcEe-erOQ_hdP_UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -473,4 +483,14 @@
   <Requirements:Refine xmi:id="_19aO0NWZEe-BXOQyk9vX6A" base_DirectedRelationship="_19WkcNWZEe-BXOQyk9vX6A" base_Abstraction="_19WkcNWZEe-BXOQyk9vX6A"/>
   <Blocks:Block xmi:id="_qCS3MNeHEe-KBvc10Q5u9w" base_Class="_qCRCANeHEe-KBvc10Q5u9w"/>
   <Blocks:Block xmi:id="_gKt4oNeIEe-KBvc10Q5u9w" base_Class="_gKpAINeIEe-KBvc10Q5u9w"/>
+  <Requirements:Satisfy xmi:id="_YYNukNfpEe-PMJF-EH2B7w" base_DirectedRelationship="_YX3JQNfpEe-PMJF-EH2B7w" base_Abstraction="_YX3JQNfpEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_wF66ANfpEe-PMJF-EH2B7w" base_DirectedRelationship="_wF1acNfpEe-PMJF-EH2B7w" base_Abstraction="_wF1acNfpEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_7gIeENfqEe-PMJF-EH2B7w" base_DirectedRelationship="_7gEMoNfqEe-PMJF-EH2B7w" base_Abstraction="_7gEMoNfqEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_9BHvsNfqEe-PMJF-EH2B7w" base_DirectedRelationship="_9BC3MNfqEe-PMJF-EH2B7w" base_Abstraction="_9BC3MNfqEe-PMJF-EH2B7w"/>
+  <Requirements:Refine xmi:id="_VIpwYNfrEe-PMJF-EH2B7w" base_DirectedRelationship="_VIk34NfrEe-PMJF-EH2B7w" base_Abstraction="_VIk34NfrEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_mFxY0NfrEe-PMJF-EH2B7w" base_DirectedRelationship="_mFtHYNfrEe-PMJF-EH2B7w" base_Abstraction="_mFtHYNfrEe-PMJF-EH2B7w"/>
+  <Requirements:Refine xmi:id="_sZn8gNfrEe-PMJF-EH2B7w" base_DirectedRelationship="_sZkSINfrEe-PMJF-EH2B7w" base_Abstraction="_sZkSINfrEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_8lyCENfrEe-PMJF-EH2B7w" base_DirectedRelationship="_8ltwoNfrEe-PMJF-EH2B7w" base_Abstraction="_8ltwoNfrEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_Ej9ZkNfsEe-PMJF-EH2B7w" base_DirectedRelationship="_Ej4hENfsEe-PMJF-EH2B7w" base_Abstraction="_Ej4hENfsEe-PMJF-EH2B7w"/>
+  <Requirements:Satisfy xmi:id="_cfSKQNfsEe-PMJF-EH2B7w" base_DirectedRelationship="_cfN40NfsEe-PMJF-EH2B7w" base_Abstraction="_cfN40NfsEe-PMJF-EH2B7w"/>
 </xmi:XMI>
