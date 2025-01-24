@@ -373,7 +373,7 @@
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ej4hENfsEe-PMJF-EH2B7w" name="Satisfy34" client="_qCRCANeHEe-KBvc10Q5u9w" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_cfN40NfsEe-PMJF-EH2B7w" name="Satisfy35" client="_BipycNWAEe-7QafB4KREhw" supplier="_QaNRENTGEe-ucOpFQ6p1rw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interaction" xmi:id="_JUCE4NoyEe-M-6k2RDYl8g" name="Interaction15">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_JUCE4NoyEe-M-6k2RDYl8g" name="seq Clap3BB">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_SPT90NoyEe-M-6k2RDYl8g" name="" type="_yIvpMNV_Ee-7QafB4KREhw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_S_RbINoyEe-M-6k2RDYl8g" name="" type="_yIvpMNV_Ee-7QafB4KREhw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_T4wn4NoyEe-M-6k2RDYl8g" name="" type="_yIvpMNV_Ee-7QafB4KREhw"/>
@@ -436,6 +436,44 @@
       <message xmi:type="uml:Message" xmi:id="_MVEFkNo1Ee-M-6k2RDYl8g" name="SoundProcessed" messageSort="asynchCall" receiveEvent="_MVGh0No1Ee-M-6k2RDYl8g" sendEvent="_MVFTsNo1Ee-M-6k2RDYl8g"/>
       <message xmi:type="uml:Message" xmi:id="_WixPsNo1Ee-M-6k2RDYl8g" name="Emit white light" messageSort="asynchCall" receiveEvent="_Wizr8No1Ee-M-6k2RDYl8g" sendEvent="_WizE4No1Ee-M-6k2RDYl8g"/>
       <message xmi:type="uml:Message" xmi:id="_XSh4sNo1Ee-M-6k2RDYl8g" name="Emit red light" messageSort="asynchCall" receiveEvent="_XSkU8No1Ee-M-6k2RDYl8g" sendEvent="_XSjG0No1Ee-M-6k2RDYl8g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_7GVTQNo1Ee-M-6k2RDYl8g" name="seq Clap1BB">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_BoBeoNo2Ee-M-6k2RDYl8g" name="User" coveredBy="_RSInENo2Ee-M-6k2RDYl8g _RSHY8No2Ee-M-6k2RDYl8g _SSOyINo2Ee-M-6k2RDYl8g _SSOyIdo2Ee-M-6k2RDYl8g _RSInEdo2Ee-M-6k2RDYl8g _e_nqwNo2Ee-M-6k2RDYl8g"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_FswfYNo2Ee-M-6k2RDYl8g" name="Microphone" coveredBy="_aBinMNo2Ee-M-6k2RDYl8g _aBiAINo2Ee-M-6k2RDYl8g _e_oR0No2Ee-M-6k2RDYl8g _lEPfoNo2Ee-M-6k2RDYl8g _lEQGsNo2Ee-M-6k2RDYl8g _pum9ANo2Ee-M-6k2RDYl8g"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_G_w_YNo2Ee-M-6k2RDYl8g" name="Micro-controller" coveredBy="_aioiENo2Ee-M-6k2RDYl8g _aims4No2Ee-M-6k2RDYl8g _punkENo2Ee-M-6k2RDYl8g _yJZYANo2Ee-M-6k2RDYl8g _yJZ_ENo2Ee-M-6k2RDYl8g _pl0_ANo3Ee-M-6k2RDYl8g _aipwMNo2Ee-M-6k2RDYl8g"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_I0rSkNo2Ee-M-6k2RDYl8g" name="RGB LED" coveredBy="_a6fBYNo2Ee-M-6k2RDYl8g _a6dMMNo2Ee-M-6k2RDYl8g _pl1mENo3Ee-M-6k2RDYl8g _1uzjANo3Ee-M-6k2RDYl8g _1u0xINo3Ee-M-6k2RDYl8g _a6focNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_RSInENo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification5Start" covered="_BoBeoNo2Ee-M-6k2RDYl8g" execution="_RSHY8No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_RSHY8No2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification5" covered="_BoBeoNo2Ee-M-6k2RDYl8g" finish="_RSInEdo2Ee-M-6k2RDYl8g" start="_RSInENo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SSOyINo2Ee-M-6k2RDYl8g" name="Message8SendEvent" covered="_BoBeoNo2Ee-M-6k2RDYl8g" message="_SSOLENo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SSOyIdo2Ee-M-6k2RDYl8g" name="Message8ReceiveEvent" covered="_BoBeoNo2Ee-M-6k2RDYl8g" message="_SSOLENo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_RSInEdo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification5Finish" covered="_BoBeoNo2Ee-M-6k2RDYl8g" execution="_RSHY8No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e_nqwNo2Ee-M-6k2RDYl8g" name="Message20SendEvent" covered="_BoBeoNo2Ee-M-6k2RDYl8g" message="_e_nDsNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aBinMNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification11Start" covered="_FswfYNo2Ee-M-6k2RDYl8g" execution="_aBiAINo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_aBiAINo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification11" covered="_FswfYNo2Ee-M-6k2RDYl8g" finish="_pl0_ANo3Ee-M-6k2RDYl8g" start="_aBinMNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_e_oR0No2Ee-M-6k2RDYl8g" name="Message20ReceiveEvent" covered="_FswfYNo2Ee-M-6k2RDYl8g" message="_e_nDsNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aioiENo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification14Start" covered="_G_w_YNo2Ee-M-6k2RDYl8g" execution="_aims4No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_aims4No2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification14" covered="_G_w_YNo2Ee-M-6k2RDYl8g" finish="_aipwMNo2Ee-M-6k2RDYl8g" start="_aioiENo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_a6fBYNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification17Start" covered="_I0rSkNo2Ee-M-6k2RDYl8g" execution="_a6dMMNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_a6dMMNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification17" covered="_I0rSkNo2Ee-M-6k2RDYl8g" finish="_a6focNo2Ee-M-6k2RDYl8g" start="_a6fBYNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lEPfoNo2Ee-M-6k2RDYl8g" name="Message23SendEvent" covered="_FswfYNo2Ee-M-6k2RDYl8g" message="_lEORgNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lEQGsNo2Ee-M-6k2RDYl8g" name="Message23ReceiveEvent" covered="_FswfYNo2Ee-M-6k2RDYl8g" message="_lEORgNo2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pum9ANo2Ee-M-6k2RDYl8g" name="Message26SendEvent" covered="_FswfYNo2Ee-M-6k2RDYl8g" message="_pulH0No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_punkENo2Ee-M-6k2RDYl8g" name="Message26ReceiveEvent" covered="_G_w_YNo2Ee-M-6k2RDYl8g" message="_pulH0No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yJZYANo2Ee-M-6k2RDYl8g" name="Message29SendEvent" covered="_G_w_YNo2Ee-M-6k2RDYl8g" message="_yJXi0No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yJZ_ENo2Ee-M-6k2RDYl8g" name="Message29ReceiveEvent" covered="_G_w_YNo2Ee-M-6k2RDYl8g" message="_yJXi0No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pl0_ANo3Ee-M-6k2RDYl8g" name="Message32SendEvent" covered="_G_w_YNo2Ee-M-6k2RDYl8g" message="_pl0X8No3Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pl1mENo3Ee-M-6k2RDYl8g" name="Message32ReceiveEvent" covered="_I0rSkNo2Ee-M-6k2RDYl8g" message="_pl0X8No3Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1uzjANo3Ee-M-6k2RDYl8g" name="Message34SendEvent" covered="_I0rSkNo2Ee-M-6k2RDYl8g" message="_1uyU4No3Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1u0xINo3Ee-M-6k2RDYl8g" name="Message34ReceiveEvent" covered="_I0rSkNo2Ee-M-6k2RDYl8g" message="_1uyU4No3Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aipwMNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification14Finish" covered="_G_w_YNo2Ee-M-6k2RDYl8g" execution="_aims4No2Ee-M-6k2RDYl8g"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_a6focNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification17Finish" covered="_I0rSkNo2Ee-M-6k2RDYl8g" execution="_a6dMMNo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_SSOLENo2Ee-M-6k2RDYl8g" name="Clap" messageSort="asynchCall" receiveEvent="_SSOyIdo2Ee-M-6k2RDYl8g" sendEvent="_SSOyINo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_e_nDsNo2Ee-M-6k2RDYl8g" name="SoundEmited" messageSort="asynchCall" receiveEvent="_e_oR0No2Ee-M-6k2RDYl8g" sendEvent="_e_nqwNo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_lEORgNo2Ee-M-6k2RDYl8g" name="SoundDetected" messageSort="asynchCall" receiveEvent="_lEQGsNo2Ee-M-6k2RDYl8g" sendEvent="_lEPfoNo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_pulH0No2Ee-M-6k2RDYl8g" name="DetectionSent" messageSort="asynchCall" receiveEvent="_punkENo2Ee-M-6k2RDYl8g" sendEvent="_pum9ANo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_yJXi0No2Ee-M-6k2RDYl8g" name="SoundProcessed" messageSort="asynchCall" receiveEvent="_yJZ_ENo2Ee-M-6k2RDYl8g" sendEvent="_yJZYANo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_pl0X8No3Ee-M-6k2RDYl8g" name="GiveColor" messageSort="asynchCall" receiveEvent="_pl1mENo3Ee-M-6k2RDYl8g" sendEvent="_pl0_ANo3Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_1uyU4No3Ee-M-6k2RDYl8g" name="EmitColor" messageSort="asynchCall" receiveEvent="_1u0xINo3Ee-M-6k2RDYl8g" sendEvent="_1uzjANo3Ee-M-6k2RDYl8g"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3-yP0NQcEe-erOQ_hdP_UA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3-49gNQcEe-erOQ_hdP_UA" source="http://www.eclipse.org/uml2/2.0.0/UML">
