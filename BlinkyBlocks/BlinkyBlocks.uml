@@ -43,11 +43,9 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_S3kK4NTzEe--g_pxbj1JMA" name="Maximum consumption"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_L0h7ENT1Ee--g_pxbj1JMA" name="Data transmission to microcontroler"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_MxvKMNT1Ee--g_pxbj1JMA" name="Response to commands"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_N0KQgNT1Ee--g_pxbj1JMA" name="Adaptive management"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_3FwzcNWYEe-BXOQyk9vX6A" name="Refine21" client="_B0BKUNTzEe--g_pxbj1JMA" supplier="_SFoCgNTxEe--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_KtdlUNT1Ee--g_pxbj1JMA" name="Interactions and synchronization "/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_O_0_4NWZEe-BXOQyk9vX6A" name="Refine19" client="_S3kK4NTzEe--g_pxbj1JMA" supplier="_R_q5kNTzEe--g_pxbj1JMA"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_TwVhgNWZEe-BXOQyk9vX6A" name="DeriveReqt20" client="_N0KQgNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_vjKIMNWZEe-BXOQyk9vX6A" name="Refine21" client="_MxvKMNT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_19WkcNWZEe-BXOQyk9vX6A" name="Refine22" client="_L0h7ENT1Ee--g_pxbj1JMA" supplier="_KtdlUNT1Ee--g_pxbj1JMA"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_gtOXUNTsEe--g_pxbj1JMA" name="Receive sound"/>
@@ -558,7 +556,6 @@
   <Requirements:Requirement xmi:id="_Ktjr8NT1Ee--g_pxbj1JMA" base_NamedElement="_KtdlUNT1Ee--g_pxbj1JMA" id="7" text="The system shall interact with sensors and actuators" base_Class="_KtdlUNT1Ee--g_pxbj1JMA"/>
   <Requirements:Requirement xmi:id="_L0mMgNT1Ee--g_pxbj1JMA" base_NamedElement="_L0h7ENT1Ee--g_pxbj1JMA" id="7.1" text="Sensors must transmit their data to the microcontroller with a latency &lt; 10 ms" base_Class="_L0h7ENT1Ee--g_pxbj1JMA"/>
   <Requirements:Requirement xmi:id="_MxzboNT1Ee--g_pxbj1JMA" base_NamedElement="_MxvKMNT1Ee--g_pxbj1JMA" id="7.2" text="Actuators must respond to commands in &lt; 50 ms after reception" base_Class="_MxvKMNT1Ee--g_pxbj1JMA"/>
-  <Requirements:Requirement xmi:id="_N0PJANT1Ee--g_pxbj1JMA" base_NamedElement="_N0KQgNT1Ee--g_pxbj1JMA" id="7.3" text="The system shall detect energy overloads and adjust coordination with neighbouring blocks" base_Class="_N0KQgNT1Ee--g_pxbj1JMA"/>
   <Blocks:Block xmi:id="_BiuD4NWAEe-7QafB4KREhw" base_Class="_BipycNWAEe-7QafB4KREhw"/>
   <Blocks:Block xmi:id="_DGx3oNWAEe-7QafB4KREhw" base_Class="_DGuNQNWAEe-7QafB4KREhw"/>
   <Blocks:Block xmi:id="_EP4NsNWAEe-7QafB4KREhw" base_Class="_EP1KYNWAEe-7QafB4KREhw"/>
@@ -571,7 +568,6 @@
   <Blocks:Block xmi:id="_WXV6oNWGEe-7QafB4KREhw" base_Class="_WXS3UNWGEe-7QafB4KREhw"/>
   <Requirements:Refine xmi:id="_3F9nwNWYEe-BXOQyk9vX6A" base_DirectedRelationship="_3FwzcNWYEe-BXOQyk9vX6A" base_Abstraction="_3FwzcNWYEe-BXOQyk9vX6A"/>
   <Requirements:Refine xmi:id="_O_4qQNWZEe-BXOQyk9vX6A" base_DirectedRelationship="_O_0_4NWZEe-BXOQyk9vX6A" base_Abstraction="_O_0_4NWZEe-BXOQyk9vX6A"/>
-  <Requirements:DeriveReqt xmi:id="_TwZy8NWZEe-BXOQyk9vX6A" base_DirectedRelationship="_TwVhgNWZEe-BXOQyk9vX6A" base_Abstraction="_TwVhgNWZEe-BXOQyk9vX6A"/>
   <Requirements:Refine xmi:id="_vjNLgNWZEe-BXOQyk9vX6A" base_DirectedRelationship="_vjKIMNWZEe-BXOQyk9vX6A" base_Abstraction="_vjKIMNWZEe-BXOQyk9vX6A"/>
   <Requirements:Refine xmi:id="_19aO0NWZEe-BXOQyk9vX6A" base_DirectedRelationship="_19WkcNWZEe-BXOQyk9vX6A" base_Abstraction="_19WkcNWZEe-BXOQyk9vX6A"/>
   <Blocks:Block xmi:id="_qCS3MNeHEe-KBvc10Q5u9w" base_Class="_qCRCANeHEe-KBvc10Q5u9w"/>
