@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="suivi_projet" company="" webLink="http://" view-date="2024-12-27" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="3.1.3100" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="suivi_projet" company="" webLink="http://" view-date="2025-01-18" view-index="0" gantt-divider-location="297" resource-divider-location="300" version="3.3.3313" locale="fr_FR">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
         <field id="tpd3" name="Nom" width="167" order="0"/>
         <field id="tpd4" name="Date de début" width="65" order="1"/>
         <field id="tpd5" name="Date de fin" width="64" order="2"/>
-        <option id="taskLabelUp" value=""/>
-        <option id="taskLabelDown" value=""/>
-        <option id="taskLabelRight" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
     </view>
     <view id="resource-table">
         <field id="0" name="Nom" width="210" order="0"/>
@@ -36,9 +37,25 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="exemple de tache" color="#8cb6ce" meeting="false" start="2025-01-07" duration="3" complete="0" thirdDate="2025-01-21" thirdDate-constraint="0" expand="true"/>
+        <task id="0" uid="72b9e764cdfd40ea8a372bfc60bb35a2" name="Diagramme d'exigences" color="#8cb6ce" meeting="false" start="2024-11-25" duration="15" complete="0" thirdDate="2025-01-21" thirdDate-constraint="0" expand="true"/>
+        <task id="2" uid="aad5191dc5fd46afb080cd25ede203de" name="Diagramme de Block" meeting="false" start="2024-11-25" duration="15" complete="0" expand="true"/>
+        <task id="3" uid="3e6403b383194afea2eef74344110328" name="CR réunion" meeting="false" start="2024-12-11" duration="5" complete="0" expand="true"/>
+        <task id="4" uid="70da0043cbc447489c7e39c2587a0d9f" name="MAJ diagramme exigence" meeting="false" start="2025-01-06" duration="9" complete="0" expand="true"/>
+        <task id="5" uid="dabbfcc126cf4aa89afb6a39a13e6e15" name="MAJ diagramme de Block" meeting="false" start="2025-01-06" duration="9" complete="0" expand="true"/>
+        <task id="6" uid="326ca1d681fe420c85a02fed41b866a6" name="CR travail" meeting="false" start="2025-01-13" duration="5" complete="0" expand="true"/>
+        <task id="7" uid="57ab5e34c9f947dc805fc4ef7d3d7f82" name="CR reunion" meeting="false" start="2025-01-20" duration="6" complete="0" expand="true"/>
+        <task id="8" uid="4b2567dc7e39484b8c47df446e0a05db" name="Cahier des charges" meeting="false" start="2025-01-22" duration="2" complete="0" expand="true"/>
+        <task id="9" uid="fa319b444bc64bcda30ecc5d677d3d80" name="MAJ diagramme de block" meeting="false" start="2025-01-21" duration="2" complete="0" expand="true"/>
+        <task id="10" uid="cc5cd40cc3fa4eaea9a80cda2539d3c3" name="Operation BDD" meeting="false" start="2025-01-21" duration="6" complete="0" expand="true"/>
+        <task id="1" uid="dacd724964e9470b8b7ae06d838012eb" name="IBD" meeting="false" start="2025-01-21" duration="4" complete="0" expand="true"/>
+        <task id="11" uid="198b3a76dc0c49fdacc49d4dbfbcc2ba" name="Diagrammes Séquence" meeting="false" start="2025-01-22" duration="3" complete="0" expand="true"/>
+        <task id="12" uid="94cef56eda5d4e4b9f6343eaeba1e748" name="Rapport final" meeting="false" start="2025-01-20" duration="28" complete="0" expand="true"/>
     </tasks>
-    <resources/>
+    <resources>
+        <resource id="0" name="Tommy" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Liam" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Anthony" function="Default:0" contacts="" phone=""/>
+    </resources>
     <allocations/>
     <vacations/>
     <previous/>
