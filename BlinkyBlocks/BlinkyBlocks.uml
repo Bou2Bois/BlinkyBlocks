@@ -256,16 +256,6 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_5zdcsNWAEe-7QafB4KREhw" type="_yIvpMNV_Ee-7QafB4KREhw" association="_5zXWENWAEe-7QafB4KREhw"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_5zbngNWAEe-7QafB4KREhw" type="_BipycNWAEe-7QafB4KREhw" aggregation="composite" association="_5zXWENWAEe-7QafB4KREhw"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_qTQW0NWDEe-7QafB4KREhw" memberEnd="_qTRk8tWDEe-7QafB4KREhw _qTY5sNWDEe-7QafB4KREhw" navigableOwnedEnd="_qTRk8tWDEe-7QafB4KREhw">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qTRk8NWDEe-7QafB4KREhw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qTRk8dWDEe-7QafB4KREhw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_qTY5sNWDEe-7QafB4KREhw" name="blinky block" type="_yIvpMNV_Ee-7QafB4KREhw" association="_qTQW0NWDEe-7QafB4KREhw"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_qTRk8tWDEe-7QafB4KREhw" name="rgb led" type="_DGuNQNWAEe-7QafB4KREhw" aggregation="composite" association="_qTQW0NWDEe-7QafB4KREhw">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zIw-8NWDEe-7QafB4KREhw" value="2"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zI6I4NWDEe-7QafB4KREhw" value="2"/>
-        </ownedEnd>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_83DCINWDEe-7QafB4KREhw" memberEnd="_83EQQNWDEe-7QafB4KREhw _83EQQ9WDEe-7QafB4KREhw" navigableOwnedEnd="_83EQQNWDEe-7QafB4KREhw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_83DpMNWDEe-7QafB4KREhw" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_83DpMdWDEe-7QafB4KREhw" key="nature" value="UML_Nature"/>
@@ -320,12 +310,18 @@
         <ownedOperation xmi:type="uml:Operation" xmi:id="_Dm6usNeNEe-KBvc10Q5u9w" name="calibrate"/>
         <ownedOperation xmi:type="uml:Operation" xmi:id="_FAJygNeNEe-KBvc10Q5u9w" name="sendOrientationData"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_3HaecNWGEe-7QafB4KREhw" memberEnd="_3HbskNWGEe-7QafB4KREhw _3Hbsk9WGEe-7QafB4KREhw" navigableOwnedEnd="_3HbskNWGEe-7QafB4KREhw">
+      <packagedElement xmi:type="uml:Association" xmi:id="_3HaecNWGEe-7QafB4KREhw" visibility="package" memberEnd="_3HbskNWGEe-7QafB4KREhw _3Hbsk9WGEe-7QafB4KREhw" navigableOwnedEnd="_3HbskNWGEe-7QafB4KREhw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3HbFgNWGEe-7QafB4KREhw" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3HbFgdWGEe-7QafB4KREhw" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_3Hbsk9WGEe-7QafB4KREhw" name="actuators" type="_HlvWQNWAEe-7QafB4KREhw" association="_3HaecNWGEe-7QafB4KREhw"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_3HbskNWGEe-7QafB4KREhw" name="magnet" type="_FwBx0NWAEe-7QafB4KREhw" aggregation="composite" association="_3HaecNWGEe-7QafB4KREhw"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3Hbsk9WGEe-7QafB4KREhw" name="actuators" type="_HlvWQNWAEe-7QafB4KREhw" association="_3HaecNWGEe-7QafB4KREhw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oHpyIOAcEe-0aMCyy9ZjIQ" value="18"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oHxG4OAcEe-0aMCyy9ZjIQ" value="18"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3HbskNWGEe-7QafB4KREhw" name="magnet" type="_FwBx0NWAEe-7QafB4KREhw" aggregation="composite" association="_3HaecNWGEe-7QafB4KREhw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nZAjcOAcEe-0aMCyy9ZjIQ" value="18"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nZGqEOAcEe-0aMCyy9ZjIQ" value="18"/>
+        </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_-B6ycNWGEe-7QafB4KREhw" memberEnd="_-B7ZgtWGEe-7QafB4KREhw _-B7ZhdWGEe-7QafB4KREhw" navigableOwnedEnd="_-B7ZgtWGEe-7QafB4KREhw">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-B7ZgNWGEe-7QafB4KREhw" source="org.eclipse.papyrus">
@@ -342,20 +338,13 @@
         <ownedEnd xmi:type="uml:Property" xmi:id="_xsyagNeDEe-KBvc10Q5u9w" name="sensors" type="_EP1KYNWAEe-7QafB4KREhw" association="_xsxMYNeDEe-KBvc10Q5u9w"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_xsxzcteDEe-KBvc10Q5u9w" name="gyroscope" type="_WXS3UNWGEe-7QafB4KREhw" aggregation="composite" association="_xsxMYNeDEe-KBvc10Q5u9w"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_MdfncNeFEe-KBvc10Q5u9w" memberEnd="_Mdg1kteFEe-KBvc10Q5u9w _MdhcoNeFEe-KBvc10Q5u9w" navigableOwnedEnd="_Mdg1kteFEe-KBvc10Q5u9w">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mdg1kNeFEe-KBvc10Q5u9w" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mdg1kdeFEe-KBvc10Q5u9w" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Mdg1kteFEe-KBvc10Q5u9w" name="speaker" type="_E5B4YNWAEe-7QafB4KREhw" aggregation="composite" association="_MdfncNeFEe-KBvc10Q5u9w"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_MdhcoNeFEe-KBvc10Q5u9w" name="blinky block" type="_yIvpMNV_Ee-7QafB4KREhw" association="_MdfncNeFEe-KBvc10Q5u9w"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_YTVNANeFEe-KBvc10Q5u9w" memberEnd="_YTXCMdeFEe-KBvc10Q5u9w _YTXpQNeFEe-KBvc10Q5u9w" navigableOwnedEnd="_YTXCMdeFEe-KBvc10Q5u9w">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YTWbINeFEe-KBvc10Q5u9w" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YTXCMNeFEe-KBvc10Q5u9w" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_YTXCMdeFEe-KBvc10Q5u9w" name="actuators" type="_HlvWQNWAEe-7QafB4KREhw" aggregation="composite" association="_YTVNANeFEe-KBvc10Q5u9w">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dODakNeFEe-KBvc10Q5u9w" value="18"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dOF20NeFEe-KBvc10Q5u9w" value="18"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dODakNeFEe-KBvc10Q5u9w" value="21"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dOF20NeFEe-KBvc10Q5u9w" value="21"/>
         </ownedEnd>
         <ownedEnd xmi:type="uml:Property" xmi:id="_YTXpQNeFEe-KBvc10Q5u9w" name="blinky block" type="_yIvpMNV_Ee-7QafB4KREhw" association="_YTVNANeFEe-KBvc10Q5u9w"/>
       </packagedElement>
@@ -457,6 +446,26 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_VmE0sOAZEe-0aMCyy9ZjIQ" name="system" type="_jpYmoNeCEe-KBvc10Q5u9w" association="_VmBKUOAZEe-0aMCyy9ZjIQ"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_VmDmkOAZEe-0aMCyy9ZjIQ" name="power supply blinky block" type="_BnxvsOAYEe-0aMCyy9ZjIQ" aggregation="composite" association="_VmBKUOAZEe-0aMCyy9ZjIQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_UxtRIOAcEe-0aMCyy9ZjIQ" memberEnd="_Uxt4MeAcEe-0aMCyy9ZjIQ _UxufQeAcEe-0aMCyy9ZjIQ" navigableOwnedEnd="_Uxt4MeAcEe-0aMCyy9ZjIQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UxtRIeAcEe-0aMCyy9ZjIQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Uxt4MOAcEe-0aMCyy9ZjIQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_UxufQeAcEe-0aMCyy9ZjIQ" name="actuators" type="_HlvWQNWAEe-7QafB4KREhw" association="_UxtRIOAcEe-0aMCyy9ZjIQ"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Uxt4MeAcEe-0aMCyy9ZjIQ" name="speaker" type="_E5B4YNWAEe-7QafB4KREhw" aggregation="composite" association="_UxtRIOAcEe-0aMCyy9ZjIQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_WI34YOAcEe-0aMCyy9ZjIQ" memberEnd="_WI4fcuAcEe-0aMCyy9ZjIQ _WI5GguAcEe-0aMCyy9ZjIQ" navigableOwnedEnd="_WI4fcuAcEe-0aMCyy9ZjIQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WI4fcOAcEe-0aMCyy9ZjIQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WI4fceAcEe-0aMCyy9ZjIQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WI5GguAcEe-0aMCyy9ZjIQ" name="actuators" type="_HlvWQNWAEe-7QafB4KREhw" association="_WI34YOAcEe-0aMCyy9ZjIQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jNlr4OAcEe-0aMCyy9ZjIQ" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jNtAoOAcEe-0aMCyy9ZjIQ" value="2"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_WI4fcuAcEe-0aMCyy9ZjIQ" name="rgb led" type="_DGuNQNWAEe-7QafB4KREhw" aggregation="composite" association="_WI34YOAcEe-0aMCyy9ZjIQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c3244OAcEe-0aMCyy9ZjIQ" value="2"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dtHF4OAcEe-0aMCyy9ZjIQ" value="2"/>
+        </ownedEnd>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_JUCE4NoyEe-M-6k2RDYl8g" name="seq Clap3BB">
