@@ -9,7 +9,7 @@ model BlinkyAlim
     Placement(transformation(origin = {82, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {80, -60}, extent = {{-20, -20}, {20, 20}})));
   Modelica.Electrical.Analog.Sensors.CurrentSensor currentSensor annotation(
     Placement(transformation(origin = {34, 48}, extent = {{-10, -10}, {10, 10}})));
-  Modelica.Blocks.Sources.BooleanStep booleanStep(startTime = 1, startValue = false)  annotation(
+  Modelica.Blocks.Sources.BooleanStep booleanStep(startTime = 0, startValue = false)  annotation(
     Placement(transformation(origin = {42, 82}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Electrical.Analog.Ideal.IdealClosingSwitch switch annotation(
     Placement(transformation(origin = {70, 48}, extent = {{-10, -10}, {10, 10}})));
