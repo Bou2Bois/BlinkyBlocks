@@ -562,12 +562,12 @@
       <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_1u0xINo3Ee-M-6k2RDYl8g" name="Message34ReceiveEvent" covered="_I0rSkNo2Ee-M-6k2RDYl8g" message="_1uyU4No3Ee-M-6k2RDYl8g"/>
       <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_aipwMNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification14Finish" covered="_G_w_YNo2Ee-M-6k2RDYl8g" execution="_aims4No2Ee-M-6k2RDYl8g"/>
       <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_a6focNo2Ee-M-6k2RDYl8g" name="ActionExecutionSpecification17Finish" covered="_I0rSkNo2Ee-M-6k2RDYl8g" execution="_a6dMMNo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_SSOLENo2Ee-M-6k2RDYl8g" name="Clap" messageSort="asynchCall" receiveEvent="_SSOyIdo2Ee-M-6k2RDYl8g" sendEvent="_SSOyINo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_e_nDsNo2Ee-M-6k2RDYl8g" name="SoundEmited" messageSort="asynchCall" receiveEvent="_e_oR0No2Ee-M-6k2RDYl8g" sendEvent="_e_nqwNo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_lEORgNo2Ee-M-6k2RDYl8g" name="SoundDetected" messageSort="asynchCall" receiveEvent="_lEQGsNo2Ee-M-6k2RDYl8g" sendEvent="_lEPfoNo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_pulH0No2Ee-M-6k2RDYl8g" name="DetectionSent" messageSort="asynchCall" receiveEvent="_punkENo2Ee-M-6k2RDYl8g" sendEvent="_pum9ANo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_yJXi0No2Ee-M-6k2RDYl8g" name="SoundProcessed" messageSort="asynchCall" receiveEvent="_yJZ_ENo2Ee-M-6k2RDYl8g" sendEvent="_yJZYANo2Ee-M-6k2RDYl8g"/>
-      <message xmi:type="uml:Message" xmi:id="_pl0X8No3Ee-M-6k2RDYl8g" name="GiveColor" messageSort="asynchCall" receiveEvent="_pl1mENo3Ee-M-6k2RDYl8g" sendEvent="_pl0_ANo3Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_SSOLENo2Ee-M-6k2RDYl8g" name="clap()" messageSort="asynchCall" receiveEvent="_SSOyIdo2Ee-M-6k2RDYl8g" sendEvent="_SSOyINo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_e_nDsNo2Ee-M-6k2RDYl8g" name="emitSound()" messageSort="asynchCall" receiveEvent="_e_oR0No2Ee-M-6k2RDYl8g" sendEvent="_e_nqwNo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_lEORgNo2Ee-M-6k2RDYl8g" name="captureSound()" messageSort="asynchCall" receiveEvent="_lEQGsNo2Ee-M-6k2RDYl8g" sendEvent="_lEPfoNo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_pulH0No2Ee-M-6k2RDYl8g" name="sendAudioData()" messageSort="asynchCall" receiveEvent="_punkENo2Ee-M-6k2RDYl8g" sendEvent="_pum9ANo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_yJXi0No2Ee-M-6k2RDYl8g" name="processData()" messageSort="asynchCall" receiveEvent="_yJZ_ENo2Ee-M-6k2RDYl8g" sendEvent="_yJZYANo2Ee-M-6k2RDYl8g"/>
+      <message xmi:type="uml:Message" xmi:id="_pl0X8No3Ee-M-6k2RDYl8g" name="sendCommand()" messageSort="asynchCall" receiveEvent="_pl1mENo3Ee-M-6k2RDYl8g" sendEvent="_pl0_ANo3Ee-M-6k2RDYl8g"/>
       <message xmi:type="uml:Message" xmi:id="_1uyU4No3Ee-M-6k2RDYl8g" name="EmitColor" messageSort="asynchCall" receiveEvent="_1u0xINo3Ee-M-6k2RDYl8g" sendEvent="_1uzjANo3Ee-M-6k2RDYl8g"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3-yP0NQcEe-erOQ_hdP_UA">
