@@ -11,6 +11,8 @@ model Fr_Flag
     Placement(transformation(extent = {{-20, -20}, {20, 20}})));
   Blinky blinky3 annotation(
     Placement(transformation(origin = {0, 60}, extent = {{-20, -20}, {20, 20}})));
+  Modelica.Blocks.Sources.BooleanExpression booleanExpression1(y = false) annotation(
+    Placement(transformation(origin = {-90, 20}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(blinkyAlim.pin_p, blinky1.pin_p) annotation(
     Line(points = {{-64, -48}, {-16, -48}}, color = {0, 0, 255}));
@@ -42,6 +44,12 @@ equation
     Line(points = {{-78, 0}, {-50, 0}, {-50, 32}, {-8, 32}, {-8, 48}, {0, 48}}, color = {255, 0, 255}));
   connect(booleanExpression.y, blinky3.b) annotation(
     Line(points = {{-78, 0}, {-50, 0}, {-50, 32}, {8, 32}, {8, 48}, {16, 48}}, color = {255, 0, 255}));
+  connect(booleanExpression1.y, blinky3.spk) annotation(
+    Line(points = {{-78, 20}, {-64, 20}, {-64, 60}, {-16, 60}}, color = {255, 0, 255}));
+  connect(booleanExpression1.y, blinky2.spk) annotation(
+    Line(points = {{-78, 20}, {-64, 20}, {-64, 6}, {-28, 6}, {-28, 0}, {-16, 0}}, color = {255, 0, 255}));
+  connect(booleanExpression1.y, blinky1.spk) annotation(
+    Line(points = {{-78, 20}, {-64, 20}, {-64, -36}, {-32, -36}, {-32, -60}, {-16, -60}}, color = {255, 0, 255}));
   annotation(
     uses(Modelica(version = "4.0.0")));
 end Fr_Flag;

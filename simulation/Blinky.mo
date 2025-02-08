@@ -17,10 +17,10 @@ model Blinky
     Placement(transformation(origin = {0, 78}, extent = {{-16, -16}, {16, 16}})));
   Modelica.Electrical.Analog.Sensors.CurrentSensor currentSensor annotation(
     Placement(transformation(origin = {-70, 40}, extent = {{-10, -10}, {10, 10}})));
-  Microphone microphone annotation(
-    Placement(transformation(origin = {-5, 123}, extent = {{-17, -17}, {17, 17}})));
-  Modelica.Blocks.Sources.BooleanExpression booleanExpression annotation(
-    Placement(transformation(origin = {-92, 82}, extent = {{-10, -10}, {10, 10}})));
+  Speaker speaker annotation(
+    Placement(transformation(origin = {-1, 125}, extent = {{-15, -15}, {15, 15}})));
+  Modelica.Blocks.Interfaces.BooleanInput spk annotation(
+    Placement(transformation(origin = {-100, 88}, extent = {{-20, -20}, {20, 20}}), iconTransformation(origin = {-80, 4}, extent = {{-20, -20}, {20, 20}})));
 equation
   connect(mcu_acc_mic.pin_n, pin_n) annotation(
     Line(points = {{16, 40}, {82, 40}}, color = {0, 0, 255}));
@@ -42,12 +42,12 @@ equation
     Line(points = {{-60, 40}, {-16, 40}}, color = {0, 0, 255}));
   connect(currentSensor.n, leds.pin_p) annotation(
     Line(points = {{-60, 40}, {-40, 40}, {-40, -56}, {-16, -56}}, color = {0, 0, 255}));
-  connect(currentSensor.n, microphone.pin_p) annotation(
-    Line(points = {{-60, 40}, {-34, 40}, {-34, 128}, {-20, 128}}, color = {0, 0, 255}));
-  connect(microphone.pin_n, pin_n) annotation(
-    Line(points = {{6, 128}, {40, 128}, {40, 40}, {82, 40}}, color = {0, 0, 255}));
-  connect(booleanExpression.y, microphone.u) annotation(
-    Line(points = {{-80, 82}, {-64, 82}, {-64, 118}, {-18, 118}}, color = {255, 0, 255}));
+  connect(speaker.pin_p, currentSensor.n) annotation(
+    Line(points = {{-14, 130}, {-34, 130}, {-34, 40}, {-60, 40}}, color = {0, 0, 255}));
+  connect(speaker.pin_n, pin_n) annotation(
+    Line(points = {{10, 130}, {38, 130}, {38, 40}, {82, 40}}, color = {0, 0, 255}));
+  connect(spk, speaker.u) annotation(
+    Line(points = {{-100, 88}, {-62, 88}, {-62, 120}, {-12, 120}}, color = {255, 0, 255}));
   annotation(
     uses(Modelica(version = "4.0.0")));
 end Blinky;

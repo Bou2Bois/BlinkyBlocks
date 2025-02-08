@@ -7,6 +7,8 @@ model OneBlinky
     Placement(transformation(origin = {-90, 40}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Blocks.Sources.BooleanTable booleanTable(table = {2, 4})  annotation(
     Placement(transformation(origin = {-90, 70}, extent = {{-10, -10}, {10, 10}})));
+  Modelica.Blocks.Sources.BooleanExpression booleanExpression1 annotation(
+    Placement(transformation(origin = {-50, 68}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(blinky.pin_n, blinkyAlim.pin_n) annotation(
     Line(points = {{16, 12}, {40, 12}, {40, -40}, {-64, -40}, {-64, -12}}, color = {0, 0, 255}));
@@ -18,6 +20,8 @@ equation
     Line(points = {{-78, 40}, {-40, 40}, {-40, -28}, {8, -28}, {8, -12}, {16, -12}}, color = {255, 0, 255}));
   connect(blinkyAlim.pin_p, blinky.pin_p) annotation(
     Line(points = {{-64, 12}, {-16, 12}}, color = {0, 0, 255}));
+  connect(booleanExpression1.y, blinky.spk) annotation(
+    Line(points = {{-38, 68}, {-32, 68}, {-32, 0}, {-16, 0}}, color = {255, 0, 255}));
   annotation(
     uses(Modelica(version = "4.0.0")));
 end OneBlinky;
