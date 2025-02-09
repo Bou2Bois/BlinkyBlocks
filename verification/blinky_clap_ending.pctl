@@ -2,13 +2,19 @@ const int step;
 
 P=? [ F light=1 ]
 
-P=? [ F ((sound=1) & (X detect=1) ) ]
+P=? [ F ((sound=1)&(X detect=1)) ]
 
-P=? [ F ((todo=1) & (X light=1) ) ]
+P=? [ F ((todo=1)&(X light=1)) ]
 
-P=? [ F ((sound=1) & (X X X light=1) ) ]
+P=? [ F ((sound=1)&(X X X light=1)) ]
 
-P=? [ F ((detect=1) & (X X light=1) ) ]
+P=? [ F ((detect=1)&(X X light=1)) ]
 
-P=? [ F[1, step] sound=1 ]
+P=? [ F[1,step] sound=1 ]
+
+P=? [ (detect=0 & todo=0 & light=0 & sound=0) U (sound=1) ]
+
+P=? [ (detect=0 & todo=0 & light=0) U (detect=1) ]
+
+P=? [ (todo=0 & light=0) U (todo=1) ]
 
