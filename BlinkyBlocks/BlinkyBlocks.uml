@@ -850,7 +850,6 @@
   <Requirements:Satisfy xmi:id="_8lyCENfrEe-PMJF-EH2B7w" base_DirectedRelationship="_8ltwoNfrEe-PMJF-EH2B7w" base_Abstraction="_8ltwoNfrEe-PMJF-EH2B7w"/>
   <Requirements:Satisfy xmi:id="_Ej9ZkNfsEe-PMJF-EH2B7w" base_DirectedRelationship="_Ej4hENfsEe-PMJF-EH2B7w" base_Abstraction="_Ej4hENfsEe-PMJF-EH2B7w"/>
   <Requirements:Satisfy xmi:id="_cfSKQNfsEe-PMJF-EH2B7w" base_DirectedRelationship="_cfN40NfsEe-PMJF-EH2B7w" base_Abstraction="_cfN40NfsEe-PMJF-EH2B7w"/>
-  <DeprecatedElements:FlowPort xmi:id="_fgT2ENm_Ee-sW85VUg_RRQ" direction="out"/>
   <DeprecatedElements:FlowPort xmi:id="_pQmEYNm_Ee-sW85VUg_RRQ" base_Port="_pQfWsNm_Ee-sW85VUg_RRQ"/>
   <PortsAndFlows:ItemFlow xmi:id="_VsGfINnBEe-sW85VUg_RRQ" base_InformationFlow="_VsAYgNnBEe-sW85VUg_RRQ"/>
   <DeprecatedElements:FlowPort xmi:id="_3bJ-QNnCEe-sW85VUg_RRQ" base_Port="_3bDQkNnCEe-sW85VUg_RRQ" direction="in"/>
