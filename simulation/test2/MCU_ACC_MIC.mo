@@ -3,7 +3,7 @@ model MCU_ACC_MIC
     Placement(transformation(origin = {-80, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {-80, 60}, extent = {{-20, -20}, {20, 20}})));
   Modelica.Electrical.Analog.Interfaces.NegativePin pin_n annotation(
     Placement(transformation(origin = {80, 0}, extent = {{-10, -10}, {10, 10}}), iconTransformation(origin = {80, 60}, extent = {{-20, -20}, {20, 20}})));
-  Modelica.Electrical.Analog.Basic.Resistor resistor(R = 175)  annotation(
+  Modelica.Electrical.Analog.Basic.Resistor resistor(R = 263)  annotation(
     Placement(transformation(origin = {2, 0}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Electrical.Analog.Sensors.CurrentSensor currentSensor annotation(
     Placement(transformation(origin = {-42, 0}, extent = {{-10, -10}, {10, 10}})));
