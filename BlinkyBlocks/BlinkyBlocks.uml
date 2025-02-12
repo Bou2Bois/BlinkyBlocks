@@ -467,7 +467,7 @@
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iKMRoOchEe-Y883RhF1QYg" name="current" informationSource="__XPRwNnHEe-sW85VUg_RRQ" informationTarget="_Hq0P0OchEe-Y883RhF1QYg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_E5aCsOciEe-Y883RhF1QYg" name=" " informationSource="_Hq0P0OchEe-Y883RhF1QYg _yIvpMNV_Ee-7QafB4KREhw" informationTarget="__XPRwNnHEe-sW85VUg_RRQ"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_oTumQOciEe-Y883RhF1QYg" name="message (trame BF21)" informationSource="_pQfWsNm_Ee-sW85VUg_RRQ _yIvpMNV_Ee-7QafB4KREhw" informationTarget="_jacjIOciEe-Y883RhF1QYg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_p4SJQOciEe-Y883RhF1QYg" name=" " informationSource="_oTumQOciEe-Y883RhF1QYg" informationTarget="_pQfWsNm_Ee-sW85VUg_RRQ"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_p4SJQOciEe-Y883RhF1QYg" name=" " informationSource="_oTumQOciEe-Y883RhF1QYg _yIvpMNV_Ee-7QafB4KREhw _jacjIOciEe-Y883RhF1QYg" informationTarget="_pQfWsNm_Ee-sW85VUg_RRQ"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5swHkOciEe-Y883RhF1QYg" name="playingSound" informationSource="_5SqJYOceEe-Y883RhF1QYg" informationTarget="_3bDQkNnCEe-sW85VUg_RRQ"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CoprkOcjEe-Y883RhF1QYg" name="soundAmbient" informationSource="_sMMWkOjYEe-GhcuaH2EdJg" informationTarget="_fNVmUOceEe-Y883RhF1QYg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Wnc8UOcjEe-Y883RhF1QYg" name="color" informationSource="_JRhPQOceEe-Y883RhF1QYg" informationTarget="_1YgUkNnDEe-sW85VUg_RRQ"/>
