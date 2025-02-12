@@ -5,11 +5,11 @@ model Scenario
     Placement(transformation(origin = {-50, 30}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Blocks.Sources.BooleanTable spk1(table = {8, 9})  annotation(
     Placement(transformation(origin = {-90, 70}, extent = {{-10, -10}, {10, 10}})));
-  Modelica.Blocks.Sources.BooleanTable red(table = {1, 2})  annotation(
+  Modelica.Blocks.Sources.BooleanTable red(table = {1, 2, 3, 4})  annotation(
     Placement(transformation(origin = {-90, -10}, extent = {{-10, -10}, {10, 10}})));
   Modelica.Blocks.Sources.BooleanTable green(table = {3, 4})  annotation(
     Placement(transformation(origin = {-50, -10}, extent = {{-10, -10}, {10, 10}})));
-  Modelica.Blocks.Sources.BooleanTable blue(table = {5, 6})  annotation(
+  Modelica.Blocks.Sources.BooleanTable blue(table = {3, 4, 5, 6})  annotation(
     Placement(transformation(origin = {-10, -10}, extent = {{-10, -10}, {10, 10}})));
 equation
   connect(blinkyAlim.pin_p, blinky1.pin_p) annotation(
