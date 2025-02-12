@@ -1,0 +1,24 @@
+const int step;
+
+label "todo_led" = (todo_r!=0)|(todo_g!=0)|(todo_b!=0);
+
+P=? [ F led_on=1 ]
+
+P=? [ F ((sound=1)&(X frequency_range!=0)) ]
+
+P=? [ F (("todo_led")&(X led_on=1)) ]
+
+P=? [ F ((sound=1)&(X X X led_on=1)) ]
+
+P=? [ F ((frequency_range!=0)&(X X led_on=1)) ]
+
+P=? [ F[1,step] sound=1 ]
+
+P=? [ (frequency_range=0&!"todo_led"&led_on=0&sound=0) U (sound=1) ]
+
+P=? [ (frequency_range=0&!"todo_led"&led_on=0) U (frequency_range!=0) ]
+
+P=? [ (!"todo_led"&led_on=0) U ("todo_led") ]
+
+P=? [ F frequency!=0 ]
+
