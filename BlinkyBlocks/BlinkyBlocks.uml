@@ -478,7 +478,7 @@
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_WUlCsOjbEe-GhcuaH2EdJg" name="current" informationSource="_u6ICQNnLEe-sW85VUg_RRQ" informationTarget="_G0FlwOjaEe-GhcuaH2EdJg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_wuTLAOk0Ee-XO7z-EWvCIw" name="current" visibility="private" informationSource="_G0FlwOjaEe-GhcuaH2EdJg" informationTarget="_V9qaEOk0Ee-XO7z-EWvCIw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_yDMhYOk0Ee-XO7z-EWvCIw" name="ItemFlow65" informationSource="_G0FlwOjaEe-GhcuaH2EdJg" informationTarget="_WtzdkOk0Ee-XO7z-EWvCIw"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_2tRq4Ok0Ee-XO7z-EWvCIw" name="color,  ledOn" informationSource="_CmYPMOjaEe-GhcuaH2EdJg" informationTarget="_Tq5GMOk0Ee-XO7z-EWvCIw"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_2tRq4Ok0Ee-XO7z-EWvCIw" name="color" informationSource="_CmYPMOjaEe-GhcuaH2EdJg" informationTarget="_Tq5GMOk0Ee-XO7z-EWvCIw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_3KZEsOk0Ee-XO7z-EWvCIw" name="playingSound, playingTone" informationSource="_A-z0cOjaEe-GhcuaH2EdJg" informationTarget="_WWUxsOk0Ee-XO7z-EWvCIw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_3ruQIOk0Ee-XO7z-EWvCIw" name="activate" informationSource="_-4qnUOjZEe-GhcuaH2EdJg" informationTarget="_XFgy8Ok0Ee-XO7z-EWvCIw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lyDM8OlBEe-XO7z-EWvCIw" name="current" informationSource="_WVqvoNwpEe-xq5ZgSI8_3Q" informationTarget="_4FL-QNwpEe-xq5ZgSI8_3Q"/>
